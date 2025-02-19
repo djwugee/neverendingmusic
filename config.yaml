@@ -1,8 +1,8 @@
 # What port we're running on
-port: 8000
+port: <port>
 # Spotify Client / Secret; make an application over here: https://developer.spotify.com/my-applications/
-spotifyClient: 8979cf60f87b46269f378f5195b58c66
-spotifySecret: 2ebb4932e7e24f499ac3b8fdaea603aa
+spotifyClient: <spotifyClient>
+spotifySecret: <spotifySecret>
 
 # These can be any folders you want
 storageType: LOCAL
@@ -11,6 +11,7 @@ storageOptions:
   AUDIO_FOLDER: data/audio
   EXTERNAL_AUDIO_FOLDER: data/external_audio
   UPLOADED_AUDIO_FOLDER: data/uploaded_audio
+  UPLOADED_ANALYSIS_FOLDER: data/uploaded_analysis
   PROFILE_FOLDER: data/profile
   LOG_FOLDER: data/log
 
@@ -18,7 +19,7 @@ storageOptions:
 audioSourceType: YOUTUBE
 audioSourceOptions:
   # This can be obtained from here: https://developers.google.com/youtube/v3/getting-started
-  API_KEY: AIzaSyAqNxbbiJKjeqIPV2BG3yHSOP-iQYzHtEI
+  API_KEY: <API_KEY>
 
 # How long blocking workers can go for (in ns)
 workerExecuteTime: 1200000000000
